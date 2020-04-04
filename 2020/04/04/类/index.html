@@ -1,0 +1,457 @@
+
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>类 | 冈崎汐峰的博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="冈崎汐峰">
+    
+
+    
+    <meta name="description" content="类car1234567891011121314151617181920212223242526272829303132&quot;&quot;&quot;一个可用于表示汽车的类&quot;&quot;&quot;class Car():    def __init__(self,make,model,year):        &quot;&quot;&quot;初始化汽车属性&quot;&quot;&quot;        self.make &#x3D; make        self.model &#x3D; model">
+<meta property="og:type" content="article">
+<meta property="og:title" content="类">
+<meta property="og:url" content="http://yoursite.com/2020/04/04/%E7%B1%BB/index.html">
+<meta property="og:site_name" content="冈崎汐峰的博客">
+<meta property="og:description" content="类car1234567891011121314151617181920212223242526272829303132&quot;&quot;&quot;一个可用于表示汽车的类&quot;&quot;&quot;class Car():    def __init__(self,make,model,year):        &quot;&quot;&quot;初始化汽车属性&quot;&quot;&quot;        self.make &#x3D; make        self.model &#x3D; model">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-04-04T09:47:22.464Z">
+<meta property="article:modified_time" content="2020-04-04T09:43:52.883Z">
+<meta property="article:author" content="冈崎汐峰">
+<meta name="twitter:card" content="summary">
+
+    
+    <link rel="alternative" href="/atom.xml" title="冈崎汐峰的博客" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/%02.css">
+<link rel="stylesheet" href="/.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="冈崎汐峰的博客" title="冈崎汐峰的博客"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="冈崎汐峰的博客">冈崎汐峰的博客</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2020/04/04/类/" title="类" itemprop="url">类</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="冈崎汐峰" target="_blank" itemprop="author">冈崎汐峰</a>
+		
+  <p class="article-time">
+    <time datetime="2020-04-04T09:47:22.464Z" itemprop="datePublished"> Published 2020-04-04</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#类"><span class="toc-number">1.</span> <span class="toc-text">类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#car"><span class="toc-number">1.1.</span> <span class="toc-text">car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-car"><span class="toc-number">1.2.</span> <span class="toc-text">class car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-user"><span class="toc-number">1.3.</span> <span class="toc-text">class user</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-restaurant"><span class="toc-number">1.4.</span> <span class="toc-text">class restaurant</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#electric-cay"><span class="toc-number">1.5.</span> <span class="toc-text">electric cay</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#my-car"><span class="toc-number">1.6.</span> <span class="toc-text">my car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#my-electric-car"><span class="toc-number">1.7.</span> <span class="toc-text">my electric car</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><h2 id="car"><a href="#car" class="headerlink" title="car"></a>car</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""一个可用于表示汽车的类"""</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Car</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,make,model,year)</span>:</span></span><br><span class="line">        <span class="string">"""初始化汽车属性"""</span></span><br><span class="line">        self.make = make</span><br><span class="line">        self.model = model</span><br><span class="line">        self.year = year</span><br><span class="line">        self.odometer_reading = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_descriptive_name</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""返回整洁的描述性信息"""</span></span><br><span class="line">        long_name = str(self.year)+<span class="string">" "</span>+self.make+<span class="string">" "</span>+self.model</span><br><span class="line">        <span class="keyword">return</span> long_name.title()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">read_odometer</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条指出汽车里程的消息"""</span></span><br><span class="line">        print(<span class="string">"This car has "</span>+str(self.odometer_reading)+<span class="string">" miles on it."</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">update_odometer</span><span class="params">(self,mileage)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        将里程表读数设置为指定的值</span></span><br><span class="line"><span class="string">        禁止将里程表读数往回调</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">if</span> mileage &gt;= self.odometer_reading:</span><br><span class="line">            self.odometer_reading = mileage</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            print(<span class="string">"You can't roll back an odometer!"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">increment_odometer</span><span class="params">(self,miles)</span>:</span></span><br><span class="line">        <span class="string">"""将里程表读数增加指定的量"""</span></span><br><span class="line">        self.odometer_reading += miles</span><br></pre></td></tr></table></figure>
+<h2 id="class-car"><a href="#class-car" class="headerlink" title="class car"></a>class car</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Car</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,make,model,year)</span>:</span></span><br><span class="line">        <span class="string">"""初始化汽车属性"""</span></span><br><span class="line">        self.make = make</span><br><span class="line">        self.model = model</span><br><span class="line">        self.year = year</span><br><span class="line">        self.odometer_reading = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_descriptive_name</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""返回整洁的描述性信息"""</span></span><br><span class="line">        long_name = str(self.year)+<span class="string">" "</span>+self.make+<span class="string">" "</span>+self.model</span><br><span class="line">        <span class="keyword">return</span> long_name.title()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">read_odometer</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条指出汽车里程的消息"""</span></span><br><span class="line">        print(<span class="string">"This car has "</span>+str(self.odometer_reading)+<span class="string">" miles on it."</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">update_odometer</span><span class="params">(self,mileage)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        将里程表读数设置为指定的值</span></span><br><span class="line"><span class="string">        禁止将里程表读数往回调</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">if</span> mileage &gt;= self.odometer_reading:</span><br><span class="line">            self.odometer_reading = mileage</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            print(<span class="string">"You can't roll back an odometer!"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">increment_odometer</span><span class="params">(self,miles)</span>:</span></span><br><span class="line">        <span class="string">"""将里程表读数增加指定的量"""</span></span><br><span class="line">        self.odometer_reading += miles</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Battery</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="string">"""一次模拟电动汽车电瓶的简单尝试"""</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,battery_size=<span class="number">70</span>)</span>:</span></span><br><span class="line">        <span class="string">"""初始化电瓶的属性"""</span></span><br><span class="line">        self.battery_size = battery_size</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">describle_battery</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条描述电瓶容量的消息"""</span></span><br><span class="line">        print(<span class="string">"this car has a "</span>+str(self.battery_size)+<span class="string">"-kwh battery"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_range</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条消息，指出电瓶的续航里程"""</span></span><br><span class="line">        <span class="keyword">if</span> self.battery_size == <span class="number">70</span>:</span><br><span class="line">            range = <span class="number">240</span></span><br><span class="line">        <span class="keyword">elif</span> self.battery_size == <span class="number">85</span>:</span><br><span class="line">            range = <span class="number">270</span></span><br><span class="line"></span><br><span class="line">        message = <span class="string">"This car can go approximately "</span>+str(range)</span><br><span class="line">        message += <span class="string">" miles on a full charge."</span></span><br><span class="line">        print(message)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ElectrocCar</span><span class="params">(Car)</span>:</span></span><br><span class="line">    <span class="string">"""电动汽车的独特之处"""</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,make,model,year)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        电动汽车的独特之处</span></span><br><span class="line"><span class="string">        初始化父类的属性，在初始化电动汽车特有的属性</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        super().__init__(make,model,year)</span><br><span class="line">        self.battery = Battery()</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">my_tesla = ElectrocCar(<span class="string">"tesla"</span>,<span class="string">"model s"</span>,<span class="number">2016</span>)</span><br><span class="line">print(my_tesla.get_descriptive_name())</span><br><span class="line">my_tesla.battery.get_range()</span><br><span class="line"></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">my_new_cat = Car("audi","a4",2016)</span></span><br><span class="line"><span class="string">print(my_new_cat.get_descriptive_name())</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">my_new_cat.update_odometer(23500)</span></span><br><span class="line"><span class="string">my_new_cat.read_odometer()</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">my_new_cat.increment_odometer(100)</span></span><br><span class="line"><span class="string">my_new_cat.read_odometer()</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
+<h2 id="class-user"><a href="#class-user" class="headerlink" title="class user"></a>class user</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">User</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="string">"""创建一个User类"""</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,first_name,last_name,login_attempts)</span>:</span></span><br><span class="line">        <span class="string">"""初始化User的属性"""</span></span><br><span class="line">        self.first = first_name</span><br><span class="line">        self.last = last_name</span><br><span class="line">        self.login_attempts = login_attempts</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">describe_user</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""描述User的姓名"""</span></span><br><span class="line">        self.full_name = self.first.title()+self.last.title()</span><br><span class="line">        print(self.full_name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">greet_user</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打招呼"""</span></span><br><span class="line">        print(<span class="string">"Hello "</span>+self.full_name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">increment_login_attemptes</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""对User的login_attempts属性每次加1"""</span></span><br><span class="line">        self.login_attempts += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">reset_login_attemptes</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""清零login_attempts"""</span></span><br><span class="line">        self.login_attempts = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Privileges</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="string">"""创建Privileges类"""</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,priviliges = [<span class="string">"can add post"</span>,<span class="string">"can de;ete post"</span>,<span class="string">"can ban user"</span>])</span>:</span></span><br><span class="line">        <span class="string">"""初始化特权属性"""</span></span><br><span class="line">        self.privileges = priviliges</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Admin</span><span class="params">(User)</span>:</span></span><br><span class="line">    <span class="string">"""创建User的子类：管理员"""</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,first_name, last_name, login_attempts)</span>:</span></span><br><span class="line">        <span class="string">"""初始化父类和子类的属性"""</span></span><br><span class="line">        super().__init__(first_name, last_name, login_attempts)</span><br><span class="line">        self.privilege = Privileges()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">show_privilleges</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印特权属性"""</span></span><br><span class="line">        print(<span class="string">"Admin has the following privileges:"</span>)</span><br><span class="line">        <span class="keyword">for</span> privilege <span class="keyword">in</span> self.privilege.privileges:</span><br><span class="line">            print(privilege)</span><br><span class="line"></span><br><span class="line">admin = Admin(<span class="string">"zhang"</span>,<span class="string">"san"</span>,<span class="number">10</span>)</span><br><span class="line">admin.show_privilleges()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">user = User("zhang","san",10)</span></span><br><span class="line"><span class="string">user.increment_login_attemptes()</span></span><br><span class="line"><span class="string">print(user.login_attempts)</span></span><br><span class="line"><span class="string">user.increment_login_attemptes()</span></span><br><span class="line"><span class="string">print(user.login_attempts)</span></span><br><span class="line"><span class="string">user.increment_login_attemptes()</span></span><br><span class="line"><span class="string">print(user.login_attempts)</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">user.reset_login_attemptes()</span></span><br><span class="line"><span class="string">print(user.login_attempts)</span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
+<h2 id="class-restaurant"><a href="#class-restaurant" class="headerlink" title="class restaurant"></a>class restaurant</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Restaurant</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,restaurant_name,cuisine_type)</span>:</span></span><br><span class="line">        self.restaurant_name = restaurant_name</span><br><span class="line">        self.cuisine_type = cuisine_type</span><br><span class="line">        self.num_served = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">describle_reataurant</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(<span class="string">"The restaurant's name is "</span>+self.restaurant_name.title())</span><br><span class="line">        print(<span class="string">"THe cuisine type of restaurant is "</span>+self.cuisine_type)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">open_reatuarent</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(self.restaurant_name+<span class="string">" is opening!"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">increment_number_served</span><span class="params">(self,increment_number)</span>:</span></span><br><span class="line">        self.num_served += increment_number</span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">class IceCreamStand(Restaurant):</span></span><br><span class="line"><span class="string">    def __init__(self,restaurant_name,cuisine_type):</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        super().__init__(restaurant_name,cuisine_type)</span></span><br><span class="line"><span class="string">        self.flavors = ["pingguo","xiangjiao","li"]</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    def print(self):</span></span><br><span class="line"><span class="string">        print("冰激淋的口味有：")</span></span><br><span class="line"><span class="string">        for flavor in self.flavors:</span></span><br><span class="line"><span class="string">            print(flavor)</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">ice_cream_stand = IceCreamStand("dingxiang","bingjilin")</span></span><br><span class="line"><span class="string">ice_cream_stand.print()</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">"""</span></span><br></pre></td></tr></table></figure>
+<h2 id="electric-cay"><a href="#electric-cay" class="headerlink" title="electric cay"></a>electric cay</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> car <span class="keyword">import</span> Car</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Battery</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="string">"""一次模拟电动汽车电瓶的简单尝试"""</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,battery_size=<span class="number">70</span>)</span>:</span></span><br><span class="line">        <span class="string">"""初始化电瓶的属性"""</span></span><br><span class="line">        self.battery_size = battery_size</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">describle_battery</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条描述电瓶容量的消息"""</span></span><br><span class="line">        print(<span class="string">"this car has a "</span>+str(self.battery_size)+<span class="string">"-kwh battery"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_range</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="string">"""打印一条消息，指出电瓶的续航里程"""</span></span><br><span class="line">        <span class="keyword">if</span> self.battery_size == <span class="number">70</span>:</span><br><span class="line">            range = <span class="number">240</span></span><br><span class="line">        <span class="keyword">elif</span> self.battery_size == <span class="number">85</span>:</span><br><span class="line">            range = <span class="number">270</span></span><br><span class="line"></span><br><span class="line">        message = <span class="string">"This car can go approximately "</span>+str(range)</span><br><span class="line">        message += <span class="string">" miles on a full charge."</span></span><br><span class="line">        print(message)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ElectrocCar</span><span class="params">(Car)</span>:</span></span><br><span class="line">    <span class="string">"""电动汽车的独特之处"""</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,make,model,year)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        电动汽车的独特之处</span></span><br><span class="line"><span class="string">        初始化父类的属性，在初始化电动汽车特有的属性</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        super().__init__(make,model,year)</span><br><span class="line">        self.battery = Battery()</span><br></pre></td></tr></table></figure>
+<h2 id="my-car"><a href="#my-car" class="headerlink" title="my car"></a>my car</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> car <span class="keyword">import</span> Car</span><br><span class="line"><span class="keyword">from</span> electric_car <span class="keyword">import</span> ElectrocCar</span><br><span class="line"></span><br><span class="line">mt_beetle = Car(<span class="string">"volkswagen"</span>,<span class="string">"beetle"</span>,<span class="number">2016</span>)</span><br><span class="line">print(mt_beetle.get_descriptive_name())</span><br><span class="line"></span><br><span class="line">my_tesla = ElectrocCar(<span class="string">"tesla"</span>,<span class="string">"roadster"</span>,<span class="number">2016</span>)</span><br><span class="line">print(my_tesla.get_descriptive_name())</span><br></pre></td></tr></table></figure>
+<h2 id="my-electric-car"><a href="#my-electric-car" class="headerlink" title="my electric car"></a>my electric car</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> car</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">my_bettle = car.Car(<span class="string">"volkawagen"</span>,<span class="string">"bettle"</span>,<span class="number">2016</span>)</span><br><span class="line">print(my_bettle.get_descriptive_name())</span><br><span class="line"></span><br><span class="line">my_tesla =  car.ElectrocCar(<span class="string">"tesla"</span>,<span class="string">"roadster"</span>,<span class="number">2016</span>)</span><br><span class="line">print(my_tesla.get_descriptive_name())</span><br></pre></td></tr></table></figure>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2020/04/04/%E7%B1%BB/" data-title="类 | 冈崎汐峰的博客" data-tsina="" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2020/04/04/异常/" title="异常">
+  <strong>上一篇：</strong><br/>
+  <span>
+  异常</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2020/04/04/测试代码/"  title="测试代码">
+ <strong>下一篇：</strong><br/> 
+ <span>测试代码
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#类"><span class="toc-number">1.</span> <span class="toc-text">类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#car"><span class="toc-number">1.1.</span> <span class="toc-text">car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-car"><span class="toc-number">1.2.</span> <span class="toc-text">class car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-user"><span class="toc-number">1.3.</span> <span class="toc-text">class user</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#class-restaurant"><span class="toc-number">1.4.</span> <span class="toc-text">class restaurant</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#electric-cay"><span class="toc-number">1.5.</span> <span class="toc-text">electric cay</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#my-car"><span class="toc-number">1.6.</span> <span class="toc-text">my car</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#my-electric-car"><span class="toc-number">1.7.</span> <span class="toc-text">my electric car</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+
+  
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="https://coderq.com" target="_blank" title="一个面向程序员交流分享的新一代社区">码农圈</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">Weibo</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=&verifier=b3593ceb&dpc=1"></iframe>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello ,I&#39;m Larry Page in Google. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/2176287895" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2020 
+		
+		<a href="/about" target="_blank" title="冈崎汐峰">冈崎汐峰</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
